@@ -1,6 +1,6 @@
 {
   "name": "nest-rabbitmq",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Quick setup for RabbitMQ in nestjs",
   "author": "amin7ranjbar",
   "license": "MIT",
