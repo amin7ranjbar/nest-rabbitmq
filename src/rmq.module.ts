@@ -1,4 +1,4 @@
-import { DynamicModule, Module } from '@nestjs/common';
+import { DynamicModule, Global, Module } from '@nestjs/common';
 import { RabbitMQModule } from '@golevelup/nestjs-rabbitmq';
 import { RmqService } from './rmq.service';
 import {
@@ -10,6 +10,7 @@ import {
 } from './rmq.constant';
 import { RmqDto } from './rmq.dto';
 
+@Global()
 @Module({
   providers: [RmqService],
   exports: [RmqService],
