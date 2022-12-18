@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/amin7ranjbar/nest-rabbitmq/compare/v1.0.2...v1.0.3) (2022-12-18)
+
+
+### Bug Fixes
+
+* use only queue required ([83bda59](https://github.com/amin7ranjbar/nest-rabbitmq/commit/83bda59756b8f93e7c74ba8a2dec6a6f9490d676))
+
 ### [1.0.2](https://github.com/amin7ranjbar/nest-rabbitmq/compare/v1.0.1...v1.0.2) (2022-12-18)
 
 ### [1.0.1](https://github.com/amin7ranjbar/nest-rabbitmq/compare/v1.0.0...v1.0.1) (2022-12-17)
