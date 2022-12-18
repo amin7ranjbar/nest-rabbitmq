@@ -50,7 +50,6 @@ If the return value of your function is void, then you have to use this method:
 ```ts
 @Subscribe({
     routingKey: 'user.add',
-    queue: 'user-add',
 })
 addUser(objUser:any) : void
 {
@@ -64,7 +63,6 @@ If the return value of your function is not void, then you have to use this meth
 ```ts
 @Rpc({
     routingKey: 'user.get',
-    queue: 'user-get',
 })
 getUser(id:number) : User
 {
@@ -102,7 +100,7 @@ return await this.rmqService.request<any>({ routingKey, payload, timeout });
 
 
 ### Hint
-    Import RmqModule, RmqService, Rpc and Subscribe from the gadin-rabbit
+    Import RmqModule, RmqService, Rpc and Subscribe from the nest-rabbitmq
 
 
 ## Author
